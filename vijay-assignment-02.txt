@@ -1,0 +1,21 @@
+"""
+# lower() method
+>> this method is used to transform the text into lowercase.
+>> for ex.
+>> text = 'Python Is Simple'
+>> lower_text = text.lower()
+>> print(lower_text)
+# output: 'python is simple'
+"""
+"""
+# casefold() method
+>> it’s more aggressive regarding case conversion, especially for non-English characters.
+>> german_text = 'Straße'
+>> lower_text = german_text.lower()
+>> casefold_text = german_text.casefold()
+>> print(lower_text)  
+# Output: "straße"
+>> print(casefold_text)  
+# Output: "strasse"
+"""
+---------------------------------------------------------------

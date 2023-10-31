@@ -1,0 +1,88 @@
+"""
+# check all 'is' methods from string
+
+--------------------------------------------------------------------------------
+
+#1 isalnum()	Returns True if all characters in the string are alphanumeric
+txt = "VIJAY12"
+s = txt.isalnum()
+print(s.isalnum())
+output: True
+--------------------------------------------------------------------------------
+
+#2 isalpha()	Returns True if all characters in the string are in the alphabet
+txt = "VijayS"
+s = txt.isalpha()
+print(s.isalpha())
+output: True
+--------------------------------------------------------------------------------
+
+#3 isascii()	Returns True if all characters in the string are ascii characters
+txt = "Company123"
+s = txt.isascii()
+print(s.isascii())
+output: True
+--------------------------------------------------------------------------------
+
+#4 isdecimal()	Returns True if all characters in the string are decimals
+txt = "1234"
+s = txt.isdecimal()
+print(s.isdecimal())
+output: True
+--------------------------------------------------------------------------------
+
+#5 isdigit()	Returns True if all characters in the string are digits
+txt = "55001"
+s = txt.isdigit()
+print(s.isdigit())
+output: True
+--------------------------------------------------------------------------------
+
+#6 isidentifier()	Returns True if the string is an identifier
+txt = "Gas"
+s = txt.isidentifier()
+print(s.isidentifier())
+output: True
+--------------------------------------------------------------------------------
+
+#7 islower()	Returns True if all characters in the string are lower case
+txt = "hello python!"
+s = txt.islower()
+print(s.islower())
+output: True
+--------------------------------------------------------------------------------
+
+#8 isnumeric()	Returns True if all characters in the string are numeric
+txt = "565543"
+s = txt.isnumeric()
+print(s.isnumeric())
+output: True
+--------------------------------------------------------------------------------
+
+#9 isprintable()	Returns True if all characters in the string are printable
+txt = "Hello! Are you there #1?"
+s = txt.isprintable()
+print(s.isprintable())
+output: True
+--------------------------------------------------------------------------------
+
+#10 isspace()	Returns True if all characters in the string are whitespaces
+txt = "   "
+s = txt.isspace()
+print(s.isspace())
+output: True
+--------------------------------------------------------------------------------
+
+#11 istitle()	Returns True if the string follows the rules of a title
+txt = "Hello, And Welcome To The Session!"
+s = txt.istitle()
+print(s.istitle())
+output: True
+--------------------------------------------------------------------------------
+
+#12 isupper()	Returns True if all characters in the string are upper case
+txt = "I AM A SUPERHERO!"
+s = txt.isupper()
+print(s.isupper())
+output: True
+"""

@@ -1,0 +1,72 @@
+'''
+# positive indexing
+#1 for print 'is'
+s = "python is simple"
+print(s[7:9])
+'''
+'''
+#2 for print 'simple'
+s = "python is simple"
+print(s[10:16])
+'''
+'''
+#3 for print 'mple'
+s = "python is simple"
+print(s[12:16])
+'''
+'''
+#4 for print 'py'
+s = "python is simple"
+print(s[0:2])
+'''
+'''
+#5 for print 'on is'
+s = "python is simple"
+print(s[4:9])
+'''
+'''
+#6 for print 'sim'
+s = "python is simple"
+print(s[10:13])
+'''
+'''
+#7 for print 'thon is'
+s = "python is simple"
+print(s[2:9])
+'''
+'''
+# negative indexing
+#1 for print 'is'
+s = "python is simple"
+print(s[-9:-7])
+'''
+'''
+#2 for print 'simple'
+s = "python is simple"
+print(s[-6:])
+'''
+'''
+#3 for print 'mple'
+s = "python is simple"
+print(s[-4:])
+'''
+'''
+#4 for print 'py'
+s = "python is simple"
+print(s[-16:-14])
+'''
+'''
+#5 for print 'on is'
+s = "python is simple"
+print(s[-12:-7])
+'''
+'''
+#6 for print 'sim'
+s = "python is simple"
+print(s[-6:-3])
+'''
+'''
+#7 for print 'thon is'
+s = "python is simple"
+print(s[-14:-7])
+'''

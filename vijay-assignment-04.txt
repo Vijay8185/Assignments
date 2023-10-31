@@ -1,0 +1,59 @@
+# rstrip() the rstrip() method removes any trailing characters (characters at the end a string), space is the default trailing character to remove.
+
+#1 remove white spaces
+
+txt = "     vijay     "
+
+s = txt.rstrip()
+
+print(s.strip( ))
+
+output: vijay
+
+
+#2 remove trailing characters 
+
+txt = "***vijay***"
+
+s = txt.rstrip()
+
+print(s.strip('*'))
+
+output: vijay
+
+
+#3 remove different trailing characters
+
+txt = " *$*vijay*$* "
+
+s = txt.rstrip()
+
+print(s.strip(' *$'))
+
+output: vijay
+
+----------------------------------------
+
+# lstrip() remove spaces to the left of the string.
+
+#1 'of all fruits  banana is my favorite'
+
+txt = "     banana"
+
+s = txt.lstrip()
+
+print(s.strip("of all fruits", s, "is my favorite"))
+
+output: of all fruits banana is my favorite
+
+
+#2 txt = ",,,,,ssaaww.....banana"
+
+s = txt.lstrip(",.asw")
+
+print(s.strip(",.asw"))
+
+output: banana
+
+
+
